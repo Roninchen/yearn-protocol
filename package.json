@@ -1,0 +1,30 @@
+{
+    "name": "yearn-protocol",
+    "version": "1.0.0",
+    "devDependencies": {
+        "ethlint": "^1.2.5",
+        "prettier": "^2.1.1",
+        "prettier-plugin-solidity": "^1.0.0-alpha.57"
+    },
+    "scripts": {
+        "lint": "prettier --list-different **/*.sol **/*.json",
+        "lint:fix": "prettier --write **/*.sol **/*.json"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/iearn-finance/yearn-protocol"
+    },
+    "author": "Andre Cronje <andre.cronje@yearn.finance>",
+    "contributors": [
+        "Bryant <fubuloubu@gmail.com>",
+        "milkyklim <10698619+milkyklim@users.noreply.github.com>"
+    ],
+    "keywords": [
+        "blockchain",
+        "ethereum",
+        "defi",
+        "yearn"
+    ],
+    "license": "AGPL-3.0-or-later",
+    "homepage": "https://yearn.finance"
+}
